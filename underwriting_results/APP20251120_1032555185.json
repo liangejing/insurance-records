@@ -1,0 +1,21 @@
+{
+  "application_id_hash": "34e55c06fa118dc2",
+  "underwriting_code": "02",
+  "key_factors_hash": "6a5d28d69b8b05a6",
+  "rule_version": "v1.0",
+  "timestamp": "2025-11-20T10:32:55.823665",
+  "insurance_type": "health_insurance",
+  "coverage": 17,
+  "age": 35,
+  "gender": "Male",
+  "risk_score": 0.4,
+  "premium_adjustment": "Specific exclusions apply",
+  "detected_conditions": [
+    {
+      "condition": "diabetes",
+      "weight": 0.4,
+      "action": "exclusion"
+    }
+  ],
+  "ocr_text_preview": "D Puhui\n普惠健康体检\nPuhui Health Medical Examination\nH0.:0000000000000\nDate:2000-0-0W\n健康体检报告\n料，浓茶，加啡等，多摄入含钙高的食物，如：奶制品，豆制品及鱼虾等。\n尿常规：\n葡萄糖阳性：+328。正常人尿内萄萄糖为阴性，若尿中葡萄糖阳性，超过了肾脏对葡萄糖\n的重吸收能力，常见于糖尿病，甲亢，肾糖阈减低。建议定期复查，必..."
+}
