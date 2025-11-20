@@ -1,0 +1,24 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 10,
+    "applicant_age": 35,
+    "applicant_gender": "Male",
+    "timestamp": "2025-11-20T11:03:39.665071"
+  },
+  "underwriting_result": {
+    "conclusion": "Standard",
+    "conclusion_code": "00",
+    "premium_adjustment": "Standard rate",
+    "risk_score": 0,
+    "rule_version": "v1.0"
+  },
+  "risk_analysis": {
+    "detected_conditions": [],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "体检报告\n姓名：张三\n年龄：32岁\n血压：120/80mmHg\n血糖：5.2mmo1/L\n心电图：正常\n肝功能：正常\n无重大疾病史",
+    "ocr_text_length": 65
+  }
+}
