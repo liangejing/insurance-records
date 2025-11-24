@@ -1,0 +1,36 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 10,
+    "applicant_age": 35,
+    "applicant_gender": "Male",
+    "timestamp": "2025-11-24T19:48:55.151654"
+  },
+  "underwriting_result": {
+    "conclusion": "Exclusion",
+    "conclusion_code": "02",
+    "premium_adjustment": "Specific exclusions apply",
+    "risk_score": 0.4,
+    "rule_version": "v1.0"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": 60.4,
+    "estimated_premium": 1.45,
+    "recommendation_text": "建议选择中等保额，平衡保障需求与保费成本",
+    "coverage_unit": "万元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [
+      {
+        "condition": "diabetes",
+        "weight": 0.4,
+        "action": "exclusion"
+      }
+    ],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "体检报告\n姓名：张伟\n年龄：35岁\n性别：男\n体检日期：2024.01.15\n【体格检查】\n身高：175cm\n体重：70kg\n血压：11876mmHg心率：72次/分\nBM:22.9\n【实验室检查】\n空腹血糖：5.1mmol/L(参考值3.9-6.1)\n总胆固醇：4.8mmol/L(参考值<5.2)\n甘油三酯：1.2mmol/L\n(参考值<1.7)\n【影像学检查】\nB超：肝胆胰脾双肾未见异常\n胸片：心肺膈未见明显异常\n心电图：正常窦性心律\n【结论】\n各项检查指标均在正常范围内\n健康评估：优秀",
+    "ocr_text_length": 248
+  }
+}
