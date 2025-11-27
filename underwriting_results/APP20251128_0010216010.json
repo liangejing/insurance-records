@@ -1,0 +1,46 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 30,
+    "applicant_age": 42,
+    "applicant_gender": "Male",
+    "timestamp": "2025-11-28T00:10:21.312011"
+  },
+  "underwriting_result": {
+    "conclusion": "Surcharge",
+    "conclusion_code": "01",
+    "premium_adjustment": "Surcharge 0%",
+    "risk_score": 0.6499999999999999,
+    "rule_version": "v1.0"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": 30.7,
+    "estimated_premium": 614.0,
+    "recommendation_text": "考虑到您的风险状况，建议选择基础保额，后续可根据情况调整",
+    "coverage_unit": "万元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [
+      {
+        "condition": "hypertension",
+        "weight": 0.3,
+        "action": "surcharge"
+      },
+      {
+        "condition": "obesity",
+        "weight": 0.15,
+        "action": "surcharge"
+      },
+      {
+        "condition": "smoking",
+        "weight": 0.25,
+        "action": "surcharge"
+      }
+    ],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "体检报告\n姓名：李强年龄：42岁\n性别：男体检日期：2024.03.12\n【体格检查】\n身高：178cm体重：88kg\n血压：148/92mmHg心率：76次/分\nBM:27.8\n【实验室检查】\n空腹血糖：6.5mmol/L(偏高)】\n总胆固醇：5.8mmo/L\n(偏高)】\n甘油三酯：2.8mmol/L\n(偏高)\n【生活习惯】\n吸烟史：10年，每日约10支\n饮酒：社交性饮酒\n【诊断】\n1.临界高血压\n2.高血脂症\n3.轻度肥胖",
+    "ocr_text_length": 215
+  }
+}
