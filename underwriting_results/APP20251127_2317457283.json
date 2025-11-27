@@ -1,0 +1,46 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 30,
+    "applicant_age": 28,
+    "applicant_gender": "Female",
+    "timestamp": "2025-11-27T23:17:45.840236"
+  },
+  "underwriting_result": {
+    "conclusion": "Decline",
+    "conclusion_code": "04",
+    "premium_adjustment": "Not applicable",
+    "risk_score": 0.8500000000000001,
+    "rule_version": "v1.0"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": 30.7,
+    "estimated_premium": 0.52,
+    "recommendation_text": "考虑到您的风险状况，建议选择基础保额，后续可根据情况调整",
+    "coverage_unit": "万元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [
+      {
+        "condition": "diabetes",
+        "weight": 0.4,
+        "action": "exclusion"
+      },
+      {
+        "condition": "smoking",
+        "weight": 0.25,
+        "action": "surcharge"
+      },
+      {
+        "condition": "alcohol",
+        "weight": 0.2,
+        "action": "surcharge"
+      }
+    ],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "体检报告\n姓名：王静年龄：28岁\n性别：女体检日期：2024.03.10\n【体格检查】\n身高：162cm体重：52kg\n血压：11070mmHg心率：68次/分\nBMl:19.8\n【实验室检查】\n空腹血糖：4.8mm.alL\n总胆固醇：4.2mm8L\n肝功能：正常范围内\n【生活习惯】\n不吸烟，不饮酒\n每周运动3-4次\n【结论】\n健康状况优秀，无慢性疾病史\n建议：继续保持健康生活方式",
+    "ocr_text_length": 192
+  }
+}
