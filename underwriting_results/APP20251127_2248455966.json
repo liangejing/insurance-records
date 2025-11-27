@@ -1,0 +1,30 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 10,
+    "applicant_age": 35,
+    "applicant_gender": "Male",
+    "timestamp": "2025-11-27T22:48:45.758055"
+  },
+  "underwriting_result": {
+    "conclusion": "Standard",
+    "conclusion_code": "00",
+    "premium_adjustment": "Standard rate",
+    "risk_score": 0,
+    "rule_version": "v1.0"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": 90.1,
+    "estimated_premium": 1.8,
+    "recommendation_text": "您的风险状况良好，建议选择较高保额以获得充分保障",
+    "coverage_unit": "万元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "保险索赔记录单\n被保险人：陈明\n驾驶证号：XXXXXXXXXXXXXXX\n年龄：22岁\n驾龄：1年\n【车辆信息】\n车牌号码：粤B·8A88X\n车辆品牌：宝马3301\n购车时间：2023年1月\n车辆价值：45万元\n【事故记录】\n事故时间：2023年8月15日14：30\n事故地点：深南大道科技园段\n事故类型：追尾碰撞\n责任认定：全责\n天气情况：晴天，路面干燥\n【损失情况】\n本方维修费用：￥85,000元\n对方维修费用：￥35,000元\n总赔付金额：￥120,000元\n【事故详情】\n驾驶员经验不足，跟车距离过近\n导致追尾前方车辆\n无人员伤亡\n【备注】\n该驾驶员为首次购买保险",
+    "ocr_text_length": 287
+  }
+}
