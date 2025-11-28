@@ -1,0 +1,41 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 20,
+    "applicant_age": 55,
+    "applicant_gender": "Male",
+    "timestamp": "2025-11-29T00:23:05.048148"
+  },
+  "underwriting_result": {
+    "conclusion": "Decline",
+    "conclusion_code": "04",
+    "premium_adjustment": "Not applicable",
+    "risk_score": 0.85,
+    "rule_version": "v1.0"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": "不适用",
+    "estimated_premium": "不适用",
+    "recommendation_text": "因健康风险过高，暂无法承保",
+    "coverage_unit": "万元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [
+      {
+        "condition": "hypertension",
+        "weight": 0.3,
+        "action": "surcharge"
+      },
+      {
+        "condition": "diabetes",
+        "weight": 0.4,
+        "action": "exclusion"
+      }
+    ],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "出院小结\n姓名：张明年龄：55岁\n性别：男入院日期：2024.01.15\n【主诉】\n胸闷、气短3个月，加重1周\n【检查结果】\n心电图：ST段压低，T波倒置\n冠脉CTA:左前降支狭窄70%\n空腹血糖：9.8m.m9L\n【诊断】\n1.冠心病，不稳定性心绞痛\n2.2型糖尿病\n3.高血压3级\n【治疗建议】\n冠状动脉介入治疗\n长期药物控制\n定期复查",
+    "ocr_text_length": 170
+  }
+}
