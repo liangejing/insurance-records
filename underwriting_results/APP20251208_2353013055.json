@@ -1,0 +1,36 @@
+{
+  "application_info": {
+    "insurance_type": "health_insurance",
+    "coverage_amount": 20,
+    "applicant_age": 28,
+    "applicant_gender": "Female",
+    "bmi_data": {
+      "height": 162,
+      "weight": 52
+    },
+    "financial_data": null,
+    "height_weight_provided": true,
+    "income_info_provided": false,
+    "timestamp": "2025-12-08T23:53:01.140627"
+  },
+  "underwriting_result": {
+    "conclusion": "Standard",
+    "conclusion_code": "00",
+    "premium_adjustment": "Standard rate",
+    "risk_score": 0.0,
+    "rule_version": "v1.1"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": 90.1,
+    "estimated_premium": 1540.71,
+    "recommendation_text": "您的风险状况良好，建议选择较高保额以获得充分保障。",
+    "coverage_unit": "万元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [],
+    "recommendations": []
+  },
+  "document_analysis": {
+    "ocr_text_preview": "体检报告\n姓名：王静年龄：28岁\n性别：女体检日期：2024.03.10\n【体格检查】\n身高：162cm体重：52kg\n血压：11070mmHg心率：68次/分\nBMl:19.8\n【实验室检查】\n空腹血糖：4.8mm.alL\n总胆固醇：4.2mm8L\n肝功能：正常范围内\n【生活习惯】\n不吸烟，不饮酒\n每周运动3-4次\n【结论】\n健康状况优秀，无慢性疾病史\n建议：继续保持健康生活方式"
+  }
+}
