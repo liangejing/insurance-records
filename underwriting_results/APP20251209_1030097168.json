@@ -1,0 +1,56 @@
+{
+  "application_info": {
+    "insurance_type": "car_insurance",
+    "coverage_amount": 150,
+    "applicant_age": 23,
+    "applicant_gender": "Male",
+    "bmi_data": null,
+    "financial_data": null,
+    "height_weight_provided": false,
+    "income_info_provided": false,
+    "timestamp": "2025-12-09T10:30:09.198151"
+  },
+  "underwriting_result": {
+    "conclusion": "Decline",
+    "conclusion_code": "04",
+    "premium_adjustment": "Not applicable",
+    "risk_score": 1.0,
+    "rule_version": "v1.1"
+  },
+  "insurance_recommendation": {
+    "recommended_coverage": "不适用",
+    "estimated_premium": "不适用",
+    "recommendation_text": "因驾驶风险过高，暂无法承保",
+    "coverage_unit": "千元"
+  },
+  "risk_analysis": {
+    "detected_conditions": [
+      {
+        "condition": "accident_history",
+        "weight": 0.6,
+        "action": "surcharge"
+      },
+      {
+        "condition": "young_driver",
+        "weight": 0.4,
+        "action": "surcharge"
+      },
+      {
+        "condition": "sports_car",
+        "weight": 0.3,
+        "action": "surcharge"
+      },
+      {
+        "condition": "new_driver",
+        "weight": 0.2,
+        "action": "surcharge"
+      }
+    ],
+    "recommendations": [
+      "High vehicle value, increased risk"
+    ]
+  },
+  "document_analysis": {
+    "ocr_text_preview": "保险索赔记录\n被保险人：赵刚\n年龄：23岁驾龄：2年\n【车辆信息】\n车型：奥迪A4L2.0T\n购车价：38万元\n使用性质：非营运\n【事故记录】\n2023.05追尾事故赔付8万元\n2023.11侧方刮擦赔付1.5万元\n2024.02违章停车罚款200元\n【风险评估】\n年轻驾驶员+高性能车辆\n两年内多次出险记录\n建议：高风险类别"
+  }
+}
